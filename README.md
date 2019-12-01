@@ -1,2 +1,2 @@
 # SJF-SRTF
-Implementation of SJF &amp; SRTF in C++
+Implementation of SJF &amp; SRTF scheduling algorithms in C++
