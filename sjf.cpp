@@ -1,3 +1,5 @@
+//its_me :->
+//Mayuresh Patle
 #include<iostream>
 #include<algorithm>
 #include<queue>
@@ -71,4 +73,3 @@ int main()
     cout<<"\nAverage turnaround time : "<<tat/(float)n;
     return 0;
 }
-
