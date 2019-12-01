@@ -41,7 +41,8 @@ int main()
         while(i<n && p[i].at<=t) pq.push(f(p[i],i)),i++;
         if(pq.empty())
         {
-            cout<<"Ideal ("<<t<<" -> "<<(t=p[i].at)<<")\n";
+            cout<<"Ideal ("<<t<<" -> ";
+            cout<<(t=p[i].at)<<")\n";
             continue;
         }
         ll c=pq.top()%N;
